@@ -7,3 +7,8 @@ __pycache__/
 # RAG folders
 dataset/
 index/
+
+# RAG files
+*.index
+*.csv
+*.json
