@@ -1,0 +1,9 @@
+# Python environment
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# RAG folders
+dataset/
+index/
