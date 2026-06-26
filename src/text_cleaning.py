@@ -15,10 +15,3 @@ def clean_paper(text):
     text = re.sub(r'\s+', ' ', text).strip()
 
     return text
-
-print(clean_paper("""Due to the lack of a Persian equivalent to the
-English PropBank, we chose to develop verb
-frames specific to our dataset. Before starting the
-AMR annotation process, it was crucial to establish
-these frames. To accomplish this, we used Perspred
-(Samvelian & Faghiri, 2013),"""))
